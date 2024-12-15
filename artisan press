@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan Press</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2d3e50;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .slogan {
+            font-style: italic;
+        }
+        nav {
+            text-align: center;
+            background-color: #4a5568;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #2d3e50;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Artisan Press</h1>
+    <p class="slogan">Where Quality Meets Creativity</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="about">
+    <h2>About Artisan Press</h2>
+    <p>At Artisan Press, we believe every writer deserves to have their work showcased at its highest potential. Our publishing services cater to independent authors who want to make their mark. We offer editing, custom cover design, book formatting, and marketing to ensure your book stands out. We provide a personalized experience where your book's vision will be fully realized.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li><strong>Editing</strong> - Professional editing to make your manuscript shine.</li>
+        <li><strong>Cover Design</strong> - Custom book covers that reflect your story.</li>
+        <li><strong>Book Formatting</strong> - Formatting for print and digital editions.</li>
+        <li><strong>Marketing & Distribution</strong> - Helping your book reach its audience with effective strategies.</li>
+    </ul>
+    <p><a href="#contact">Contact us for a personalized quote!</a></p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you are ready to publish your book or want to know more about our services, please get in touch:</p>
+    <p>Email: <a href="mailto:contact@artisanpress.com">contact@artisanpress.com</a></p>
+    <p>Phone: (xxx) xxx-xxxx</p>
+    <p>Follow us on social media for updates and tips:</p>
+    <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Artisan Press. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
